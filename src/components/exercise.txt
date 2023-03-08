@@ -1,6 +1,6 @@
-1. Crear un componente
+1. Crear un componente (hecho)
 
-2. Recibir una prop con el año actual
+2. Recibir una prop con el año actual (hecho)
 
 3. Ojo, usar funciones para sacar el año
 

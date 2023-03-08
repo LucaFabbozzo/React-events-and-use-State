@@ -53,10 +53,7 @@
   color: #20c125;
 }
 
-.año_box {
-  margin-top: 50px;
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.label-green {
+  background-color: #024602;
+  color: white;
 }
