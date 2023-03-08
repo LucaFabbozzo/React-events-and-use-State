@@ -10,6 +10,6 @@
     - Mostrar en todo momento el año por pantalla (hecho)
 
 
-5. Validar que el año sea un numero y que sea requerido (prop)
+5. Validar que el año sea un numero y que sea requerido (prop) (hecho)
 
 6. Cambiar el año mediante un input de texto y que se cambie dinamicamente

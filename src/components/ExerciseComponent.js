@@ -1,5 +1,5 @@
-
-import React, {useState} from 'react'
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
 export const ExerciseComponent = ({ year }) => {
   
@@ -29,4 +29,9 @@ export const ExerciseComponent = ({ year }) => {
       </p>
     </div>
   );
+}
+
+
+ExerciseComponent.propTypes = {
+  year: PropTypes.number.isRequired
 }
