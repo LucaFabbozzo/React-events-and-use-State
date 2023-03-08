@@ -13,6 +13,17 @@ export const ExerciseComponent = ({ year }) => {
     setYearNow(yearNow - 1);
   };
 
+  const changeYear = e => {
+    let data = parseInt(e.target.value);
+
+    if (Number.isInteger(data)) {
+        setYearNow(data);
+    } else {
+        setYearNow(year);
+    }
+
+  }
+
 
   return (
     <div>
@@ -26,6 +37,12 @@ export const ExerciseComponent = ({ year }) => {
         <button onClick={next}>
           <i className="fa-solid fa-forward"></i>
         </button>
+      </p>
+      <p>Change year:
+        <input
+          onChange={changeYear}
+          type="text"
+          placeholder='Change year' />
       </p>
     </div>
   );
